@@ -1,16 +1,8 @@
-![build](https://github.com/Eisbaeeer/Ferraris_MQTT_Energy_Counter_Meter_TCRT5000/actions/workflows/main.yaml/badge.svg) [![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
-
-![Logo](pics/logo.jpg)
-# Ferraris TCRT5000 ESP8266 Energy Meter Counter MQTT
+# Ferraris TCRT5000 ESP8266 Energy Meter Counter MQTT and SD card logging
 
 ## Description
-This project allows you to count the rounds per KWh of meter disk with the red mark of ferraris energy counter .
-The code is tested on ESP8266 platform.
-You are able to connect maximum four energy meter.
-You can use the cheap TCRT5000 as infrared sensors.
-Printable enclosures are available on thingiverse.
-
-## DEPRECATED - This repo will not be updated! See forks for updates!
+This is a fork and tries to enrich to original repository by logging data to a Sd card in case MQTT cannot be used because of missing wifi connection, etc.
+See the original fork repository for more details.
 
 ## Features
 - the code creates a filesystem on flash storage of the esp8266
